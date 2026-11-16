@@ -1,0 +1,6 @@
+.agent-output/
+.DS_Store
+xcuserdata/
+*.xcodeproj
+*.xcworkspace
+DerivedData/

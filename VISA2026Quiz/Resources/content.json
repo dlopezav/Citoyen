@@ -1,0 +1,155 @@
+{
+  "title": "Livret du citoyen — Mai 2026",
+  "pdfFileName": "VISA_2026.pdf",
+  "pageCount": 83,
+  "parts": [
+    {
+      "id": "p1",
+      "title": "Principes et valeurs de la République",
+      "page": 5,
+      "summary": "Devise, symboles et grands principes constitutionnels (indivisible, laïque, démocratique, sociale).",
+      "concepts": [
+        { "id": "liberte", "title": "Liberté", "page": 6, "summary": "Liberté de conscience, d'opinion et d'expression ; limites posées par la loi et le respect d'autrui." },
+        { "id": "egalite", "title": "Égalité", "page": 6, "summary": "Égalité des droits ; lutte contre les discriminations (sexe, origine, religion, handicap, orientation, etc.)." },
+        { "id": "fraternite", "title": "Fraternité", "page": 7, "summary": "Solidarité entre citoyens et entre générations ; exemples : sécurité sociale, retraites." },
+        { "id": "symboles", "title": "Symboles de la France", "page": 8, "summary": "Drapeau, hymne, Marianne, 14 juillet, coq, devise Liberté Égalité Fraternité." },
+        { "id": "indivisible", "title": "République indivisible", "page": 10, "summary": "Une et indivisible : unité du territoire et de la République." },
+        { "id": "laique", "title": "République laïque", "page": 10, "summary": "Séparation des affaires publiques et des convictions religieuses ; liberté de culte." },
+        { "id": "democratique", "title": "République démocratique", "page": 14, "summary": "Souveraineté du peuple, élections, pluralisme politique." },
+        { "id": "sociale", "title": "République sociale", "page": 14, "summary": "Protection sociale, droit au travail, lutte contre les exclusions." }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Système institutionnel et politique",
+      "page": 15,
+      "summary": "Démocratie représentative, organisation territoriale, rôle de l'Union européenne.",
+      "concepts": [
+        { "id": "democratie", "title": "Démocratie et État de droit", "page": 16, "summary": "Séparation des pouvoirs, primauté de la loi, justice indépendante." },
+        { "id": "territoire", "title": "Organisation territoriale", "page": 19, "summary": "Commune, département, région, outre-mer ; décentralisation." },
+        { "id": "ue", "title": "Union européenne", "page": 22, "summary": "Institutions (Parlement, Commission, Conseil) et citoyenneté européenne." }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Droits et devoirs des citoyens",
+      "page": 24,
+      "summary": "Droits fondamentaux et obligations (impôts, respect des lois, défense, etc.).",
+      "concepts": [
+        { "id": "droits", "title": "Droits fondamentaux", "page": 25, "summary": "Libertés individuelles, droits sociaux, égalité femmes-hommes." },
+        { "id": "devoirs", "title": "Obligations et devoirs", "page": 32, "summary": "Respect de la loi, contribution fiscale, participation à la vie démocratique." }
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Histoire, géographie et culture",
+      "page": 37,
+      "summary": "Repères historiques, territoire français, patrimoine culturel.",
+      "concepts": [
+        { "id": "histoire", "title": "Périodes et personnages", "page": 38, "summary": "De l'Ancien Régime à la Ve République ; figures clés." },
+        { "id": "geo", "title": "Territoire et géographie", "page": 49, "summary": "Métropole et outre-mer, fleuves, montagnes, frontières." },
+        { "id": "culture", "title": "Culture et patrimoine", "page": 53, "summary": "Langue française, laïcité culturelle, sites et traditions." }
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "Vivre dans la société française",
+      "page": 61,
+      "summary": "Vie quotidienne, travail et vie familiale en France.",
+      "concepts": [
+        { "id": "quotidien", "title": "Vie quotidienne", "page": 62, "summary": "Santé, école, transports, services publics." },
+        { "id": "travail", "title": "Travailler en France", "page": 70, "summary": "Contrat de travail, droits des salariés, chômage, syndicats." },
+        { "id": "famille", "title": "Vie familiale", "page": 73, "summary": "Mariage, PACS, autorité parentale, protection de l'enfance." }
+      ]
+    },
+    {
+      "id": "annexes",
+      "title": "Annexes",
+      "page": 77,
+      "summary": "Textes fondateurs et ressources.",
+      "concepts": [
+        { "id": "ddhc", "title": "Déclaration des droits de l'homme (1789)", "page": 77, "summary": "Texte fondateur des droits et libertés." },
+        { "id": "charte", "title": "Charte des droits et devoirs", "page": 78, "summary": "Synthèse des droits et devoirs du citoyen." }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q-devise",
+      "title": "Devise et symboles",
+      "conceptIds": ["liberte", "egalite", "fraternite", "symboles"],
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Quelle est la devise de la République française ?",
+          "choices": ["Unité, Justice, Paix", "Liberté, Égalité, Fraternité", "Travail, Famille, Patrie", "Honneur et Patrie"],
+          "correctIndex": 1,
+          "explanationPage": 6,
+          "explanation": "La devise figure sur les frontons des mairies et symbolise les valeurs de la République."
+        },
+        {
+          "id": "q2",
+          "text": "L'État français doit lutter contre :",
+          "choices": ["Uniquement le racisme", "Les discriminations fondées sur le sexe, l'origine ou la religion entre autres", "Les opinions politiques", "Les syndicats"],
+          "correctIndex": 1,
+          "explanationPage": 7,
+          "explanation": "Le livret cite explicitement sexisme, racisme, antisémitisme, discriminations religieuses et anti-LGBT+."
+        },
+        {
+          "id": "q3",
+          "text": "La fraternité illustre notamment :",
+          "choices": ["La séparation des Églises", "La solidarité entre générations (ex. retraites)", "L'indépendance de la justice", "Le suffrage universel uniquement"],
+          "correctIndex": 1,
+          "explanationPage": 7,
+          "explanation": "Fraternité collective (sécurité sociale) et intergénérationnelle (pension)."
+        }
+      ]
+    },
+    {
+      "id": "q-principes",
+      "title": "Principes de la République",
+      "conceptIds": ["indivisible", "laique", "democratique", "sociale"],
+      "questions": [
+        {
+          "id": "q4",
+          "text": "Une République laïque signifie que :",
+          "choices": ["La religion d'État est le catholicisme", "Les autorités publiques sont neutres vis-à-vis des convictions religieuses", "Les cultes sont interdits", "Seul le culte catholique est autorisé"],
+          "correctIndex": 1,
+          "explanationPage": 10,
+          "explanation": "Laïcité : liberté de conscience et séparation des sphères publique et religieuse."
+        },
+        {
+          "id": "q5",
+          "text": "« Indivisible » signifie :",
+          "choices": ["Chaque région a sa propre constitution", "Le territoire et la République forment un tout un", "Les départements peuvent quitter la France librement", "L'UE remplace l'État"],
+          "correctIndex": 1,
+          "explanationPage": 10,
+          "explanation": "Principe d'unité nationale inscrit dans la tradition républicaine."
+        }
+      ]
+    },
+    {
+      "id": "q-examen",
+      "title": "Entraînement général",
+      "conceptIds": ["democratie", "droits", "histoire"],
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Le livret du citoyen sert à :",
+          "choices": ["Remplacer le code civil", "Illustrer le niveau de connaissances pour la naturalisation", "Établir un visa touristique", "Remplacer le test de français"],
+          "correctIndex": 1,
+          "explanationPage": 3,
+          "explanation": "L'avant-propos précise qu'il fixe le niveau attendu pour l'examen civique."
+        },
+        {
+          "id": "q7",
+          "text": "Quel niveau de français est mentionné pour la naturalisation ?",
+          "choices": ["A1", "B1", "B2", "C2"],
+          "correctIndex": 2,
+          "explanationPage": 3,
+          "explanation": "Niveau B2 du cadre européen commun de référence."
+        }
+      ]
+    }
+  ]
+}

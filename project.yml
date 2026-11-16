@@ -1,0 +1,22 @@
+name: VISA2026Quiz
+options:
+  bundleIdPrefix: fr.citoyen
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  SWIFT_VERSION: "5.9"
+targets:
+  VISA2026Quiz:
+    type: application
+    platform: iOS
+    sources:
+      - path: VISA2026Quiz
+        excludes:
+          - Resources/**
+    resources:
+      - path: VISA2026Quiz/Resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: fr.citoyen.livretquiz2026
+      INFOPLIST_KEY_CFBundleDisplayName: Livret Citoyen Quiz
+      GENERATE_INFOPLIST_FILE: YES
+      TARGETED_DEVICE_FAMILY: "1,2"
